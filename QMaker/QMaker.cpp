@@ -7,8 +7,6 @@
 ;
 map<string, SHU> QMaker::makeQs() {
 	Qlist.clear();
-	//cout << "jxlsb" << endl;
-	cout << "test" << endl;
 	for (size_t i = 0; i < q_num; i++) {
 		bool made = false;
 		do {
